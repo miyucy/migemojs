@@ -1,0 +1,25 @@
+{
+  "name": "romkan",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "@types/node": "^9.4.7",
+    "typescript": "^2.7.2"
+  },
+  "scripts": {
+    "build": "rm -rf dist && tsc -p ./tsconfig.json",
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "homepage": "",
+  "author": "miyucy",
+  "license": "ISC",
+  "files": [
+    "dist"
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "migemojs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "dependencies": {
+    "lodash.escaperegexp": "^4.1.2",
+    "regex-trie": "^1.0.4",
+    "romkan": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^9.4.7",
+    "typescript": "^2.7.2"
+  },
+  "scripts": {
+    "build": "rm -rf dist && tsc -p ./tsconfig.json",
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "homepage": "",
+  "author": "miyucy",
+  "license": "ISC",
+  "files": [
+    "dist"
+  ]
+}

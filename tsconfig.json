@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": ["esnext"],
+    "module": "umd",
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "declaration": true
+  }
+}
