@@ -1,6 +1,6 @@
 {
   "name": "romkan",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "dist/index.js",
   "dependencies": {},
@@ -14,9 +14,9 @@
   },
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/miyucy/migemojs.git"
   },
-  "homepage": "",
+  "homepage": "https://github.com/miyucy/migemojs/tree/master/packages/romkan",
   "author": "miyucy",
   "license": "ISC",
   "files": [
